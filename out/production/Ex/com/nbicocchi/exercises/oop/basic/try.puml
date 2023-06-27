@@ -1,0 +1,10 @@
+classDiagram
+direction BT
+class Letter {
+  ~ String from
+  ~ String to
+  ~ StringBuilder lines
+  + Letter(String, String)
+  + addLine(String) void
+  + getText() String
+}
