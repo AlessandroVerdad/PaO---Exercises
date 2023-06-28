@@ -1,4 +1,4 @@
-package com.nbicocchi.exercises.nio;
+package com.nbicocchi.exercises.nio.a;
 
 import java.io.File;
 import java.io.IOException;

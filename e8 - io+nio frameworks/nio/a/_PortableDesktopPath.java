@@ -1,4 +1,4 @@
-package com.nbicocchi.exercises.nio;
+package com.nbicocchi.exercises.nio.a;
 
 public class _PortableDesktopPath {
     public static String portableDesktopPath()
