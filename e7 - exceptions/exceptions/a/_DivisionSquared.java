@@ -1,4 +1,4 @@
-package com.nbicocchi.exercises.exceptions;
+package com.nbicocchi.exercises.exceptions.a;
 
 public class _DivisionSquared {
     public static int divisionSquared(int a, int b)

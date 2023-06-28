@@ -1,4 +1,4 @@
-package com.nbicocchi.exercises.exceptions;
+package com.nbicocchi.exercises.exceptions.a;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

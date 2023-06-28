@@ -1,4 +1,4 @@
-package com.nbicocchi.exercises.exceptions;
+package com.nbicocchi.exercises.exceptions.a;
 
 public class _Division {
     public static double division(double a, double b)

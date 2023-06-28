@@ -1,4 +1,4 @@
-package com.nbicocchi.exercises.exceptions;
+package com.nbicocchi.exercises.exceptions.a;
 
 public class _CheckLicencePlate {
     public static void checkLicencePlate(String licence)
