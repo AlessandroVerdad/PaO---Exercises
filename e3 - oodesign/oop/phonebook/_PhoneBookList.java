@@ -29,7 +29,7 @@ public class _PhoneBookList implements PhoneBook {
         ArrayList<Person> foundPerson = new ArrayList<>();
 
         for (Person person : phoneBook)
-            if (person.lastname.equals(lastname) && person != null)
+            if (person != null && person.lastname.equals(lastname))
                 foundPerson.add(person);
 
         return foundPerson.toArray(new Person[]{});
@@ -40,7 +40,7 @@ public class _PhoneBookList implements PhoneBook {
         ArrayList<Person> foundPerson = new ArrayList<>();
 
         for (Person person : phoneBook)
-            if (person.lastname.equals(lastname) && person.name.equals(name) && person != null)
+            if (person != null && person.lastname.equals(lastname) && person.name.equals(name))
                 foundPerson.add(person);
 
         return foundPerson.toArray(new Person[]{});

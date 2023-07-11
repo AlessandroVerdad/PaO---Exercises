@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/e2 - basics" isTestSource="false" packagePrefix="com.nbicocchi.exercises" />
+      <sourceFolder url="file://$MODULE_DIR$/e3 - oodesign" isTestSource="false" packagePrefix="com.nbicocchi.exercises" />
+      <sourceFolder url="file://$MODULE_DIR$/e4 - data structures" isTestSource="false" packagePrefix="com.nbicocchi.exercises" />
+      <sourceFolder url="file://$MODULE_DIR$/e5 - generic data structures" isTestSource="false" packagePrefix="com.nbicocchi.exercises" />
+      <sourceFolder url="file://$MODULE_DIR$/e6 - functional programming" isTestSource="false" packagePrefix="com.nbicocchi.exercises" />
+      <sourceFolder url="file://$MODULE_DIR$/e7 - exceptions" isTestSource="false" packagePrefix="com.nbicocchi.exercises" />
+      <sourceFolder url="file://$MODULE_DIR$/e8 - io+nio frameworks" isTestSource="false" packagePrefix="com.nbicocchi.exercises" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

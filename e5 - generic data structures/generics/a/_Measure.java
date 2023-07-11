@@ -1,4 +1,4 @@
-package com.nbicocchi.exercises.generics;
+package com.nbicocchi.exercises.generics.a;
 
 public class _Measure {
     public static <T> T max(T[] array, Measurer<T> measurer) {

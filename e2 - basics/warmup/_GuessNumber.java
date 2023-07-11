@@ -10,6 +10,7 @@ public class _GuessNumber {
         int topBound = 3;
         Random randomSeed = new Random();
         int secretNumber = randomSeed.nextInt(topBound+1);
+        double a = randomSeed.nextDouble((double) 4.45, (double)  1.245);
 
         boolean correct = false;
 

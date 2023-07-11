@@ -9,6 +9,7 @@ public class _EqualIsNot {
 
     public static int countMatches(String string, String txt)
     {
+        char c ;
 
         int txtCount = -1;
         int txtIndex = -txt.length();

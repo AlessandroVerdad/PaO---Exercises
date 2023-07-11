@@ -13,11 +13,11 @@ public class _DeepCopy {
             /*  ___METODO 1___  */
             //  'System.arraycopy()' ---> requires the destination array to be allocated manually
             b[i] = new int[rows];
-            System.arraycopy(original[i], 0, b[i], 0, rows);
+            System.arraycopy(original[i], 0, b[i], 0, original[i].length);
 
             /*  ___METODO 2___  */
             //  'Arrays.copyOf()' ---> takes care of allocating the destination
-            b[i] = Arrays.copyOf(original[i], rows);
+            b[i] = Arrays.copyOf(original[i], original[i].length);
         }
 
         return b;

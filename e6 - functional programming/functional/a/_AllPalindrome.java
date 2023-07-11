@@ -4,7 +4,7 @@ import java.util.List;
 
 public class _AllPalindrome {
     public static boolean allPalindrome(List<String> strings) {
-        return strings.stream().allMatch(_AllPalindrome::isPalindrome);
+        return strings.stream().allMatch(com.nbicocchi.exercises.functional.b._AllPalindrome::isPalindrome);
     }
 
     public static boolean isPalindrome(String string) {

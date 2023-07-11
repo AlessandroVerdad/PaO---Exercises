@@ -17,7 +17,6 @@ public class _DuplicateChars {
             //  first time seeing this letter
             if (!seen.toString().contains(iChar))
                 seen.append(iChar);
-
             //  'seen' already has it --> check if 'recurring' already has it or not
             else if (!recurring.toString().contains(iChar))
                 recurring.append(iChar);

@@ -1,4 +1,4 @@
-package com.nbicocchi.exercises.collections.lists;
+package com.nbicocchi.exercises.collections.lists.a;
 
 import java.util.Iterator;
 import java.util.List;

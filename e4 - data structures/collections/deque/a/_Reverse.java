@@ -1,4 +1,4 @@
-package com.nbicocchi.exercises.collections.deque;
+package com.nbicocchi.exercises.collections.deque.a;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -13,6 +13,9 @@ public class _Reverse {
         while(!src.isEmpty())
             dst.add(src.removeLast());
 
+        src.getFirst();
+        src.pollFirst();
+        src.peekFirst();
         return dst;
     }
 

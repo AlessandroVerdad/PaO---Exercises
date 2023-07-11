@@ -1,4 +1,4 @@
-package com.nbicocchi.exercises.generics;
+package com.nbicocchi.exercises.generics.a;
 
 import java.util.ArrayList;
 import java.util.List;

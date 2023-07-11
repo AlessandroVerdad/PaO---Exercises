@@ -6,7 +6,7 @@ public class _MatchUp {
         int cont = 0;
 
         for(int i=0; i<v1.length; i++)
-            if(Math.abs(v1[i] - v2[i]) <= 2 && v1[i] == v2[i])
+            if(Math.abs(v1[i] - v2[i]) <= 2 && v1[i] != v2[i])
                 cont++;
 
         return cont;

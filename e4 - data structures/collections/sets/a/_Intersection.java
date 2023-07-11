@@ -1,4 +1,4 @@
-package com.nbicocchi.exercises.collections.sets;
+package com.nbicocchi.exercises.collections.sets.a;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package com.nbicocchi.exercises.collections.maps;
+package com.nbicocchi.exercises.collections.maps.a;
 
 import java.util.HashSet;
 import java.util.Map;

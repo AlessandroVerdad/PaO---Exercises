@@ -13,7 +13,7 @@ public class _FilterItems {
                 _CheckString.checkString(s);
                 return true;
             } catch (ParseException e) {
-                System.out.println("Errore in string parsing");
+                System.out.println("Error in string parsing");
                 return false;
             }
         }).toList();

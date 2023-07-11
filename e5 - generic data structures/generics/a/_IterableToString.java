@@ -1,4 +1,4 @@
-package com.nbicocchi.exercises.generics;
+package com.nbicocchi.exercises.generics.a;
 
 public class _IterableToString {
     public static <E> String iterableToString(Iterable<E> src) {

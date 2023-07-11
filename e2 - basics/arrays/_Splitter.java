@@ -9,8 +9,8 @@ public class _Splitter {
         int[] res = new int[stringNumber.length()];
 
         for(int i=0; i<stringNumber.length(); i++)
-            //res[i] = (int) stringNumber.charAt(i);
-            res[i] = Character.getNumericValue(stringNumber.charAt(i));
+            res[i] = stringNumber.charAt(i);
+            //res[i] = Character.getNumericValue(stringNumber.charAt(i));
 
         return res;
     }
